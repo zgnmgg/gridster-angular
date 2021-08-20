@@ -1,0 +1,905 @@
+{
+  "dashboards": [
+    {
+      "id": "1",
+      "name": "Dashboard 1"
+    },
+    {
+      "id": "2",
+      "name": "Dashboard 2"
+    },
+    {
+      "id": "3",
+      "name": "Dashboard 3"
+    }
+  ],
+  "widgets": [
+    {
+      "cols": 4,
+      "rows": 6,
+      "y": 6,
+      "x": 11,
+      "mode": "SYSTEM",
+      "dashboard": "1",
+      "label": "Command Status",
+      "vendor": null,
+      "attribute": "command-status",
+      "type": "pie-chart",
+      "filters": {
+        "assets": [
+          "2"
+        ]
+      },
+      "options": {
+        "colors": [
+          "#a8daa8ff",
+          "#dd9fa4ff",
+          "#e7cf6bff"
+        ]
+      },
+      "id": "865a6698-3ded-4696-8e34-9fddbd5e5380",
+      "createdAt": "2020-8-28 3:39:56 PM",
+      "updatedAt": "2020-9-4 3:40:03 PM"
+    },
+    {
+      "cols": 7,
+      "rows": 6,
+      "y": 11,
+      "x": 4,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "Saatlik Tüketimler",
+      "vendor": "2",
+      "attribute": "consume-hourly",
+      "type": "line-chart",
+      "filters": {
+        "assets": [
+          "1"
+        ],
+        "devices": [
+          "4"
+        ],
+        "day": "2020-08-28"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "c7cba187-13ce-45ef-bbd8-b6e7cdd5be7e",
+      "createdAt": "2020-8-28 5:40:01 PM",
+      "updatedAt": "2020-9-4 12:35:05 PM"
+    },
+    {
+      "cols": 6,
+      "rows": 6,
+      "y": 0,
+      "x": 9,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "testdd",
+      "vendor": "1",
+      "attribute": "pressure",
+      "type": "bar-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "1",
+        "start_time": "2020-08-31 16:57:00",
+        "end_time": "2020-08-30 16:57:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80"
+        ]
+      },
+      "id": "865d91f2-b666-4b96-b90e-db5b48805bfc",
+      "createdAt": "2020-8-31 4:58:21 PM",
+      "updatedAt": "2020-9-4 3:40:10 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 5,
+      "y": 12,
+      "x": 11,
+      "mode": "SYSTEM",
+      "dashboard": "1",
+      "label": "sensor health",
+      "vendor": null,
+      "attribute": "device-status",
+      "type": "pie-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ]
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "831728b9-d0ef-438c-9d82-5f51a712a591",
+      "createdAt": "2020-8-31 4:58:56 PM",
+      "updatedAt": "2020-9-4 2:20:44 PM"
+    },
+    {
+      "cols": 3,
+      "rows": 6,
+      "y": 0,
+      "x": 0,
+      "mode": "SYSTEM",
+      "dashboard": "1",
+      "label": "sensor command status",
+      "vendor": null,
+      "attribute": "command-status",
+      "type": "pie-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ]
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280",
+          "#fd399580"
+        ]
+      },
+      "id": "5ae3dc62-942a-40ba-b27b-50a1d013ff63",
+      "createdAt": "2020-8-31 4:59:32 PM",
+      "updatedAt": "2020-9-4 3:40:05 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 5,
+      "y": 6,
+      "x": 0,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "baylan meter1 battery",
+      "vendor": "2",
+      "attribute": "battery",
+      "type": "last-value",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "5"
+      },
+      "options": {
+        "colors": []
+      },
+      "id": "5f6c2105-4f93-4859-9e15-d007bd3fedc2",
+      "createdAt": "2020-8-31 5:01:18 PM",
+      "updatedAt": "2020-9-4 12:03:34 PM"
+    },
+    {
+      "cols": 7,
+      "rows": 5,
+      "y": 6,
+      "x": 4,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "tüm su sayaçlar günlük tüketim",
+      "vendor": "2",
+      "attribute": "consume-daily",
+      "type": "line-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "devices": [
+          "4",
+          "5",
+          "6"
+        ],
+        "start_time": "2020-08-31 17:01:00",
+        "end_time": "2020-08-30 17:01:00",
+        "month": "2020-07"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "df948e49-9aa2-4cc8-9827-0ba9d293f80e",
+      "createdAt": "2020-8-31 5:02:58 PM",
+      "updatedAt": "2020-9-4 12:35:02 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 6,
+      "y": 11,
+      "x": 0,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "asdasd",
+      "vendor": "1",
+      "attribute": "temp",
+      "type": "bar-stacked-chart",
+      "filters": {
+        "assets": [
+          "1"
+        ],
+        "device": "1",
+        "start_time": "2020-09-02 15:15:00",
+        "end_time": "2020-09-01 15:15:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280",
+          "#fd399580"
+        ]
+      },
+      "id": "86e7f1f6-b382-4ba4-8578-7f185e5b1579",
+      "createdAt": "2020-9-2 3:15:34 PM",
+      "updatedAt": "2020-9-4 12:03:34 PM"
+    },
+    {
+      "cols": 6,
+      "rows": 6,
+      "y": 0,
+      "x": 3,
+      "mode": "VENDOR",
+      "dashboard": "1",
+      "label": "ddd",
+      "vendor": "1",
+      "attribute": "battery",
+      "type": "table",
+      "filters": {
+        "assets": [
+          "1"
+        ],
+        "device": "2"
+      },
+      "options": {
+        "colors": []
+      },
+      "id": "744c35b6-a3ef-443e-bace-f1c08afcda96",
+      "createdAt": "2020-9-3 10:32:58 AM",
+      "updatedAt": "2020-9-4 3:40:08 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 4,
+      "y": 0,
+      "x": 0,
+      "mode": "VENDOR",
+      "label": "dd",
+      "vendor": "1",
+      "attribute": "temp",
+      "type": "bar-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "3",
+        "start_time": "2020-09-04 10:23:00",
+        "end_time": "2020-09-03 10:23:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80"
+        ]
+      },
+      "id": "8729c7cc-58ef-4d68-a5ca-b84f30686d5c",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 10:24:49 AM",
+      "updatedAt": "2020-9-4 11:22:50 AM"
+    },
+    {
+      "cols": 4,
+      "rows": 3,
+      "y": 0,
+      "x": 0,
+      "mode": "VENDOR",
+      "label": "dfasdasd",
+      "vendor": "1",
+      "attribute": "pressure",
+      "type": "line-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "2",
+        "start_time": "2020-09-04 10:33:00",
+        "end_time": "2020-09-03 10:33:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "a0bc91ec-ce2b-4e55-951b-51e60c1e24f1",
+      "dashboard": "3",
+      "createdAt": "2020-9-4 10:33:42 AM",
+      "updatedAt": "2020-9-4 11:50:21 AM"
+    },
+    {
+      "cols": 4,
+      "rows": 4,
+      "y": 0,
+      "x": 4,
+      "mode": "VENDOR",
+      "label": "ddd",
+      "vendor": "2",
+      "attribute": "consume-hourly",
+      "type": "line-chart",
+      "filters": {
+        "assets": [
+          "2"
+        ],
+        "devices": [
+          "6"
+        ],
+        "start_time": "2020-09-04 11:22:00",
+        "end_time": "2020-09-03 11:22:00",
+        "day": "2020-09-11"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "9426afc1-9318-488c-b3ec-1ab10af18ec4",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 11:23:00 AM",
+      "updatedAt": "2020-9-4 2:26:35 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 4,
+      "y": 4,
+      "x": 4,
+      "mode": "VENDOR",
+      "label": "ddd",
+      "vendor": "1",
+      "attribute": "pressure",
+      "type": "bar-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "1",
+        "start_time": "2020-09-04 11:57:00",
+        "end_time": "2020-09-03 11:57:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80"
+        ]
+      },
+      "id": "7c79b169-e7c0-4d28-b82b-3d81d2424b0c",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 11:57:24 AM",
+      "updatedAt": "2020-9-4 1:57:33 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 4,
+      "y": 4,
+      "x": 0,
+      "mode": "SYSTEM",
+      "label": "dd",
+      "vendor": null,
+      "attribute": "command-status",
+      "type": "pie-chart",
+      "filters": {
+        "assets": [
+          "1"
+        ],
+        "start_time": "2020-09-04 11:57:00",
+        "end_time": "2020-09-03 11:57:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280",
+          "#fd399580"
+        ]
+      },
+      "id": "66363055-ad7f-48fa-af51-0efecbdb11e4",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 11:57:38 AM",
+      "updatedAt": "2020-9-4 1:56:58 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 3,
+      "y": 0,
+      "x": 8,
+      "mode": "VENDOR",
+      "label": "dasd",
+      "vendor": "1",
+      "attribute": "humidity",
+      "type": "bar-stacked-chart",
+      "filters": {
+        "assets": [
+          "1",
+          "2"
+        ],
+        "device": "3",
+        "start_time": "2020-09-04 14:24:00",
+        "end_time": "2020-09-03 14:24:00"
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280",
+          "#fd399580"
+        ]
+      },
+      "id": "75769f6d-737a-4505-92fc-779feb3813b3",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 2:24:59 PM",
+      "updatedAt": "2020-9-4 2:26:39 PM"
+    },
+    {
+      "cols": 4,
+      "rows": 5,
+      "y": 3,
+      "x": 8,
+      "mode": "SYSTEM",
+      "label": "dsd",
+      "vendor": null,
+      "attribute": "device-status",
+      "type": "pie-chart",
+      "filters": {
+        "assets": [
+          "2"
+        ]
+      },
+      "options": {
+        "colors": [
+          "#5d78ff80",
+          "#ffb82280"
+        ]
+      },
+      "id": "cbb01f59-e7ea-4834-9cfe-a51d2dba856c",
+      "dashboard": "2",
+      "createdAt": "2020-9-4 2:26:17 PM",
+      "updatedAt": "2020-9-4 2:40:41 PM"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Senlab Heat",
+      "widgetAttributes": [
+        {
+          "key": "battery",
+          "types": [
+            {
+              "name": "last-value",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            },
+            {
+              "name": "table",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "temp",
+          "types": [
+            {
+              "name": "last-value",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            },
+            {
+              "name": "bar-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1"
+              ]
+            },
+            {
+              "name": "bar-stacked-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1",
+                "color2",
+                "color3"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1"
+              ]
+            },
+            {
+              "name": "line-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1",
+                "color2"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1",
+                "color2"
+              ]
+            },
+            {
+              "name": "pie-chart",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [
+                "color1",
+                "color2",
+                "color3",
+                "color4"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "color1",
+                "color2",
+                "color3",
+                "color4"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pressure",
+          "types": [
+            {
+              "name": "last-value",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            },
+            {
+              "name": "bar-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1"
+              ]
+            },
+            {
+              "name": "line-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1",
+                "color2"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1",
+                "color2"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "humidity",
+          "types": [
+            {
+              "name": "last-value",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            },
+            {
+              "name": "bar-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1"
+              ]
+            },
+            {
+              "name": "line-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1",
+                "color2"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1",
+                "color2"
+              ]
+            },
+            {
+              "name": "bar-stacked-chart",
+              "filters": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time"
+              ],
+              "options": [
+                "color1",
+                "color2",
+                "color3"
+              ],
+              "required": [
+                "assets",
+                "device",
+                "start_time",
+                "end_time",
+                "color1",
+                "color2",
+                "color3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Baylan Meter",
+      "widgetAttributes": [
+        {
+          "key": "battery",
+          "types": [
+            {
+              "name": "last-value",
+              "filters": [
+                "assets",
+                "device"
+              ],
+              "options": [],
+              "required": [
+                "assets",
+                "device"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "consume-hourly",
+          "types": [
+            {
+              "name": "bar-chart",
+              "filters": [
+                "assets",
+                "devices",
+                "day"
+              ],
+              "options": [
+                "color1"
+              ],
+              "required": [
+                "assets",
+                "devices",
+                "day",
+                "color1"
+              ]
+            },
+            {
+              "name": "line-chart",
+              "filters": [
+                "assets",
+                "devices",
+                "day"
+              ],
+              "options": [
+                "color1",
+                "color2"
+              ],
+              "required": [
+                "assets",
+                "devices",
+                "day",
+                "color1",
+                "color2"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "consume-daily",
+          "types": [
+            {
+              "name": "bar-chart",
+              "filters": [
+                "assets",
+                "devices",
+                "month"
+              ],
+              "options": [
+                "color1"
+              ],
+              "required": [
+                "assets",
+                "devices",
+                "month",
+                "color1"
+              ]
+            },
+            {
+              "name": "line-chart",
+              "filters": [
+                "assets",
+                "devices",
+                "month"
+              ],
+              "options": [
+                "color1",
+                "color2"
+              ],
+              "required": [
+                "assets",
+                "devices",
+                "month",
+                "color1",
+                "color2"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "name": "Senlab Heat 1",
+      "vendorId": "1",
+      "assetId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Senlab Heat 2",
+      "vendorId": "1",
+      "assetId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Senlab Heat 3",
+      "vendorId": "1",
+      "assetId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Baylan Meter 1",
+      "vendorId": "2",
+      "assetId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Baylan Meter 2",
+      "vendorId": "2",
+      "assetId": "2"
+    },
+    {
+      "id": "6",
+      "name": "Baylan Meter 3",
+      "vendorId": "2",
+      "assetId": "2"
+    }
+  ],
+  "assets": [
+    {
+      "id": "1",
+      "name": "Asset 1"
+    },
+    {
+      "id": "2",
+      "name": "Asset 2"
+    }
+  ]
+}
